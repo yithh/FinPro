@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="40dp"
+    android:background="#182867"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to"
+        android:textColor="#ffffff"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        tools:ignore="SpUsage" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Finpro!"
+        android:textColor="#F5820D"
+        android:textSize="42dp"
+        android:textStyle="bold"
+        tools:ignore="SpUsage" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please Login to Continue!"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        tools:ignore="SpUsage" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/emailTextInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:hint="Email"
+        android:textColorHint="@color/white">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_emailLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:background="#182867"
+            android:inputType="textNoSuggestions"
+            android:singleLine="true" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/passwordTextInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        app:endIconMode="password_toggle"
+        android:textColorHint="@color/white"
+        app:passwordToggleEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_passwordLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:background="#182867"
+            android:inputType="textPassword"
+            android:singleLine="true" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <TextView
+        android:id="@+id/tv_registerLink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Don't have an Account? Register Here!"
+        android:textSize="12dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="16dp"
+        />
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@color/rain_blue"
+        android:textColor="@color/black"
+        />
+
+</LinearLayout>

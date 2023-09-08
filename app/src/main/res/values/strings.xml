@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FinPro</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="what_is_firebase">What is Firebase?</string>
+    <string name="firebase_is_a_mobile_and_web_application_development_platform_that_can_help_you_build_enhance_and_manage_applications_with_various_features">Firebase is a mobile and web application development platform that can help you build, enhance, and manage applications with various features.</string>
+</resources>

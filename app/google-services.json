@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "975665491310",
+    "project_id": "finproandroyithro",
+    "storage_bucket": "finproandroyithro.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:975665491310:android:f4f1814757b1ea9d52257f",
+        "android_client_info": {
+          "package_name": "com.example.finpro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "975665491310-09mjobeh2v6acol4eeim37ef9d20a62t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIxpbhdb9PSz5DMZUU7wXM0wWx5oUqt0g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "975665491310-09mjobeh2v6acol4eeim37ef9d20a62t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

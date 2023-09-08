@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="40dp"
+    android:background="#182867"
+    tools:context=".Description">
+
+    <TextView
+        android:id="@+id/textSubHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/what_is_firebase"
+        android:textColor="#ffffff"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        tools:ignore="SpUsage,TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/textParagraph"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/firebase_is_a_mobile_and_web_application_development_platform_that_can_help_you_build_enhance_and_manage_applications_with_various_features"
+        android:textColor="#ffffff"
+        android:textSize="12dp"
+        tools:ignore="SpUsage,VisualLintLongText,TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/textAdditionalFeatures"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Additional Features of Firebase"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textFeature1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="1. Realtime Database: Firebase offers a NoSQL cloud database for real-time data synchronization across clients."
+        android:textColor="#ffffff"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textFeature2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="2. Authentication: Easily integrate user authentication with various methods such as email/password, Google, and more."
+        android:textColor="#ffffff"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textFeature3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="3. Cloud Functions: Run serverless backend code in response to events from your app."
+        android:textColor="#ffffff"
+        android:textSize="12sp" />
+
+
+</LinearLayout>
